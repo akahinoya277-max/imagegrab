@@ -1,0 +1,15 @@
+{
+  "name": "imagegrab-chrome-extension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "图提取 ImageGrab：电商商品图提取与 PNG 批量下载 Chrome 扩展",
+  "scripts": {
+    "test": "node --test tests/image-core.test.js tests/static.test.js",
+    "test:site": "node tests/site-check.mjs",
+    "test:e2e": "node tests/e2e.mjs",
+    "test:all": "npm test && npm run test:site && npm run test:e2e"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

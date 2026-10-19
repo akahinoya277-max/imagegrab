@@ -1,0 +1,8 @@
+node_modules/
+tests/.chrome-*/
+tests/.e2e/
+tests/.site-check/
+tests/.site-screenshots/
+*.log
+.DS_Store
+Thumbs.db
